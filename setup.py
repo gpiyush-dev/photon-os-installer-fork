@@ -19,7 +19,7 @@ setup(
     packages=find_packages(include=['photon_installer', 'photon_installer.modules']),
     install_requires=REQUIRES,
     setup_requires=['setuptools', 'wheel'],
-    build-backend="setuptools.build_meta",
+    build_backend="setuptools.build_meta",
     include_package_data=True,
     zip_safe=False,
     entry_points={
